@@ -1,0 +1,40 @@
+# Dev dependencies
+node_modules
+.next
+
+# Source maps and types
+*.tsbuildinfo
+next-env.d.ts
+
+# Tests
+src/test
+vitest.config.ts
+**/*.test.ts
+**/*.test.tsx
+
+# Config files (not needed at runtime)
+postcss.config.mjs
+tsconfig.json
+eslint.config.mjs
+AGENTS.md
+CLAUDE.md
+SKILL.md
+MEMORY.md
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env (set in Vercel dashboard)
+.env
+.env.local
+.env.*.local
